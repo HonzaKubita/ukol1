@@ -188,21 +188,21 @@ const secondNumber = document.getElementById('secondNumber');
 const result = document.getElementById('result');
 
 function add() {
-    const result = parseInt(firstNumber.value) + parseInt(secondNumber.value);
-    result.innerText = result;
+    const calcResult = parseInt(firstNumber.value) + parseInt(secondNumber.value);
+    result.innerText = calcResult;
 }
 
 function subtract() {
-    const result = parseInt(firstNumber.value) - parseInt(secondNumber.value);
-    result.innerText = result;
+    const calcResult = parseInt(firstNumber.value) - parseInt(secondNumber.value);
+    result.innerText = calcResult;
 }
 
 function multiply() {
-    const result = parseInt(firstNumber.value) * parseInt(secondNumber.value);
-    result.innerText = result;
+    const calcResult = parseInt(firstNumber.value) * parseInt(secondNumber.value);
+    result.innerText = calcResult;
 }
 
 function divide() {
-    const result = parseInt(firstNumber.value) / parseInt(secondNumber.value);
-    result.innerText = result;
+    const calcResult = parseInt(firstNumber.value) / parseInt(secondNumber.value);
+    result.innerText = calcResult;
 }
